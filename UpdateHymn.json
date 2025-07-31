@@ -1,8 +1,8 @@
 {
-  "version": "1.1",
+  "version": "1.5",
   "message": "Nouvelle version de HymnBook disponible ! Cliquez ici pour la télécharger.",
   "download_url": "https://github.com/jakelight-40/DownloaderHym-Apk/new/main",
-  "updated_on": "2025-07-30",
+  "updated_on": "2025-07-31",
   "changelog": [
     "Ajout de la fonction de partage des chants",
     "Correction de bugs mineurs",
