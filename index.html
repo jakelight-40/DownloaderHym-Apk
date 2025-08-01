@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,41 +11,39 @@
       color: white;
       padding: 20px;
       text-align: center;
-    }
+    }.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
 
-    .container {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 16px;
-      padding: 30px;
-      max-width: 800px;
-      margin: 0 auto;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-    }
+h1, h2, h3 {
+  color: #ffffff;
+}
 
-    h1, h2, h3 {
-      color: #ffffff;
-    }
+p, li {
+  font-size: 17px;
+  line-height: 1.6;
+}
 
-    p, li {
-      font-size: 17px;
-      line-height: 1.6;
-    }
+.download-btn {
+  background-color: #ffffff;
+  color: #2575fc;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0;
+}
 
-    .download-btn {
-      background-color: #ffffff;
-      color: #2575fc;
-      border: none;
-      border-radius: 30px;
-      padding: 15px 30px;
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      margin: 20px 0;
-    }
-
-    .try-online {
+.try-online {
   background-color: #e3f2fd;
   border-left: 5px solid #2196f3;
   padding: 15px 20px;
@@ -77,22 +74,20 @@
   background-color: #0d47a1;
 }
 
+.screenshot {
+  margin: 20px auto;
+  text-align: center;
+}
 
-    .screenshot {
-      margin: 20px auto;
-      text-align: center;
-    }
-      
 .screenshot img {
   max-width: 90%;
-  width: 400px; 
+  width: 400px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   margin: 0 auto;
   display: block;
-
-    }
+}
 
 .ic_launcher img {
   width: 100px;
@@ -100,30 +95,27 @@
   margin: 0 auto;
   display: block;
 }
-    footer {
-      margin-top: 50px;
-      font-size: 14px;
-      opacity: 0.8;
-    }
 
-    ul {
-      text-align: left;
-      display: inline-block;
-    }
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+}
+
   </style>
 </head>
-<body>
-
-  <div class="container">
+<body>  <div class="container">
     <h1>Télécharger l'application HymnBooks</h1>
-    <p>Une application pour un accès facile aux hymnes chrétiens.</p>
+    <p>Une application pour un accès facile aux hymnes chrétiens.</p><div class="app-icon">
+  <img src="ic_launcher.png" alt="App Icon">
+</div>
 
-<div class="app-icon">
-    <img src="ic_launcher.png" alt="App Icon">
-  </div>
-
-    
-    <a href="HymnBooks.apk" class="download-btn" download>Télécharger l'APK</a>
+<a href="HymnBooks.apk" class="download-btn" download>Télécharger l'APK</a>
 
 <div class="try-online">
   <h3>💡 Essayez la version Web</h3>
@@ -133,7 +125,6 @@
   <a href="https://jakelight-40.github.io/KyakaDev/" target="_blank" class="btn-try">Essayer l'application en ligne</a>
 </div>
 
-    
 <div class="notice">
   <h3>⚠️ Avant de télécharger</h3>
   <p>
@@ -143,106 +134,88 @@
     Cela se trouve généralement dans les <strong>Paramètres > Sécurité</strong> ou <strong>Paramètres > Applications > Accès spécial</strong> de votre téléphone.
   </p>
 </div>
-    
-    <h2>Aperçu</h2>
-    <p>Cette application de cantiques est une collection numérique d'hymnes, incluant : <strong>Baptist Hymnbook, Louange à l'Éternel, Nyimbo za Mungu</strong> et <strong>Nyimbo za Wokovu</strong>. Elle permet aux utilisateurs d'accéder facilement à ces chants en tout lieu et à tout moment.</p>
 
-    <h2>Fonctionnalités</h2>
-    <ul>
-      <li>📴 <strong>Accès hors ligne</strong> : Lisez les cantiques sans connexion Internet.</li>
-      <li>🌙 <strong>Mode clair et sombre</strong> : Changez le thème selon vos préférences.</li>
-      <li>🔍 <strong>Recherche avancée</strong> : Trouvez un cantique par son titre, son numéro ou un mot du texte.</li>
-      <li>⭐ <strong>Favoris</strong> : Enregistrez vos cantiques préférés pour un accès rapide.</li>
-      <li>🔡 <strong>Ajustement de la taille du texte</strong> : Pour un meilleur confort de lecture.</li>
-      <li>📋 <strong>Copie facile</strong> : Copiez rapidement les textes dans le presse-papier.</li>
-    </ul>
+<h2>Aperçu</h2>
+<p>HymnBooks est une application mobile hors-ligne qui regroupe plusieurs recueils de cantiques populaires tels que <strong>Baptist HymnBook</strong>, <strong>Louange à l'Éternel</strong>, <strong>Nyimbo za Mungu</strong>, et <strong>Nyimbo za Wokovu</strong>. Elle permet aux utilisateurs de chanter et méditer la Parole de Dieu en tout temps, même sans connexion Internet.</p>
 
-    <h2>Comment utiliser l'application</h2>
+<h2>Fonctionnalités</h2>
+<ul>
+  <li>📴 <strong>Accès hors ligne</strong> : Lisez les cantiques sans connexion Internet.</li>
+  <li>🌙 <strong>Mode clair et sombre</strong> : Changez le thème selon vos préférences.</li>
+  <li>🔍 <strong>Recherche avancée</strong> : Trouvez un cantique par son titre, son numéro ou un mot du texte.</li>
+  <li>⭐ <strong>Favoris</strong> : Enregistrez vos cantiques préférés pour un accès rapide.</li>
+  <li>🔡 <strong>Ajustement de la taille du texte</strong> : Pour un meilleur confort de lecture.</li>
+  <li>📋 <strong>Copie facile</strong> : Copiez rapidement les textes dans le presse-papier afin de les coller ailleurs.</li>
+  <li>📤 <strong>Partage rapide</strong> : Partagez facilement un cantique via WhatsApp, Messenger ou d'autres applications grâce au bouton de partage intégré.</li>
+  <li>➡️ <strong>Navigation par glissement</strong> : Passez au cantique suivant en balayant vers la gauche, revenez au précédent en balayant vers la droite.</li>
+  <li>🖊️ <strong>Boutons de navigation</strong> : Utilisez les boutons pour changer de cantique ou partager un cantique directement sans avoir à copier le texte.</li>
+</ul>
 
-<div class="screenshot">
-  <img src="screenshot1.jpg" alt="À propos et Changement de thème">
-  <p>À gauche : <strong>bouton À propos de l'application</strong>.<br>
-     À droite : <strong>bouton pour changer le mode (Clair ou Sombre)</strong>.
-  </p>
-</div>
+<h2>📸 Captures d’écran</h2>
+<p>Voici quelques images pour vous donner un aperçu de l'application :</p>
 
-<div class="screenshot">
-  <img src="screenshot2.jpg" alt="Mode Sombre">
-  <p><strong>Mode Sombre</strong> activé.</p>
-</div>
+<div>
+  <img src="screenshot1.jpg" alt="screenshot1">
+  <p>📌 <strong>En haut à gauche </strong>: bouton « À propos » menant à la page d’informations sur l’application.  
+ <br> <strong>En haut à droite </strong>: bouton de changement de thème (sombre ou clair).</p>
 
-<div class="screenshot">
-  <img src="screenshot3.jpg" alt="Recherche">
-  <p>Tapez un <strong>mot-clé</strong> dans le champ à gauche, puis cliquez sur l’<strong>icône de recherche</strong> à droite.</p>
-</div>
+  <img src="screenshot2.jpg" alt="screenshot2">
+  <p>🎨 Exemple de l’apparence en mode sombre.</p>
 
-<div class="screenshot">
-  <img src="screenshot4.jpg" alt="Résultats de la recherche">
-  <p><strong>Résultat de la recherche</strong> : Une liste de titres de cantiques correspondants s’affiche.</p>
-</div>
+  <img src="screenshot3.jpg" alt="screenshot3">
+  <p>🔙 <strong>En haut à gauche </strong>: bouton « retour » pour revenir à la page précédente.  <br>
+  📖 <strong>Au centre </strong>: le titre du recueil des cantiques.  <br>
+  ⭐ <strong>En haut à droite </strong>: bouton « favoris » menant à la page de vos chants favoris.</p>
 
-<div class="screenshot">
-  <img src="screenshot5.jpg" alt="Affichage du cantique">
-  <p>En cliquant sur le <strong>titre d’un cantique</strong>, vous accédez à cette page contenant le <strong>texte complet</strong> du cantique.</p>
-</div>
+  <img src="screenshot4.jpg" alt="screenshot4">
+  <p> 🔍 <strong>À gauche </strong>: champ de saisie pour écrire un numéro, un titre ou un mot du cantique recherché.  <br>
+ <strong> À droite </strong>: bouton de recherche à cliquer après avoir saisi le texte.</p>
 
-<div class="screenshot">
-  <img src="screenshot6.jpg" alt="Page du cantique">
-  <p>À gauche : <strong>bouton retour</strong>.<br>
-     À droite : <strong>titre du cantique</strong>.
-  </p>
-</div>
+  <img src="screenshot5.jpg" alt="screenshot5">
+  <p>📋 Affichage des résultats correspondant à votre recherche.</p>
 
-<div class="screenshot">
-  <img src="screenshot7.jpg" alt="Fonctions sur le cantique">
+  <img src="screenshot6.jpg" alt="screenshot6">
+  <p>📄 Page d’affichage du texte du cantique, après avoir cliqué sur un titre.</p>
+
+  <img src="screenshot7.jpg" alt="screenshot7">
+  <p>🔙 <strong>En haut à gauche</strong>: bouton « retour ».  <br>
+  📖 <strong>À côté</strong> : titre du recueil.</p>
+
+  <img src="screenshot8.jpg" alt="screenshot8">
+  <p>⬅️ <strong>Premier bouton </strong>: aller au cantique précédent.  <br>
+  📖 <strong>Centre</strong> : titre du cantique actuel.  <br>
+  ➡️ <strong>Dernier bouton </strong>: aller au cantique suivant.</p>
+
+  <img src="screenshot9.jpg" alt="screenshot9">
   <p>
-    - Premier bouton (encerclé en <strong>rouge</strong>, à gauche) : <strong>diminuer</strong> la taille de la police.<br>
-    - Deuxième (encerclé en <strong>bleu</strong>) : <strong>copier</strong> le texte dans le presse-papiers.<br>
-    - Troisième (encerclé en <strong>vert</strong>) : <strong>ajouter</strong> le cantique aux favoris.<br>
-    - Quatrième (encerclé en <strong>noir</strong>) : <strong>augmenter</strong> la taille de la police.
+    🔴 <strong>Premier bouton (rouge) </strong>: diminuer la taille du texte.<br>
+    🔵 <strong>Deuxième bouton (bleu)</strong> : ajouter le chant aux favoris.<br>
+    🟢 <strong>Troisième bouton (vert)</strong> : copier le texte dans le presse-papier.<br>
+    ⚫ <strong>Quatrième bouton (noir) </strong>: partager le texte via WhatsApp, Facebook, etc.<br>
+    🟡 <strong>Cinquième bouton (jaune)</strong> : augmenter la taille du texte.
   </p>
+
+  <img src="screenshot10.jpg" alt="screenshot10">
+  <p>⭐ <strong>page des favoris </strong>: ici s’affichent les cantiques que vous avez ajoutés à vos favoris.</p>
 </div>
 
-<div class="screenshot">
-  <img src="screenshot8.jpg" alt="Accès aux favoris">
-  <p>À gauche : <strong>bouton retour</strong>.<br>
-     À droite : <strong>bouton qui ouvre la page des favoris</strong>.
-  </p>
-</div>
+<h2>À propos du développeur</h2>
+<p>Je m'appelle <strong>Jacob KYAKAKALA</strong>, jeune de la <strong>3ᵉ CBCA BENI VILLE</strong>, à <strong>Beni, Nord-Kivu</strong>. J'ai conçu cette application avec le désir de rendre les cantiques accessibles à tous, partout et à tout moment. Que cette œuvre soit une source de bénédiction et d'édification pour chacun de ses utilisateurs.</p>
 
-<div class="screenshot">
-  <img src="screenshot9.jpg" alt="Page des favoris">
-  <p><strong>Page des cantiques favoris</strong></p>
-</div>
+<h2>Reconnaissance envers Dieu</h2>
+<p><em>Avant toute chose, je rends gloire à Dieu Tout-Puissant, le seul vrai Inspirateur de cette application. "Je ne savais pas que je pouvais le faire, mais le Seigneur l’a accompli à travers moi. Il m’a dit : ‘Va avec la force que tu as.’ Et voici, c’est fait, non par ma propre force, mais par Sa grâce. Que toute la gloire Lui soit rendue, aujourd’hui et à jamais. Amen !"</em></p>
 
-    <h2>Remerciements</h2>
-    <p>Un grand merci à :</p>
-    <ul>
-      <li>Rév. Philémon KALWENZE</li>
-      <li>Philémon SIRIWAYO</li>
-      <li>Rafiki MALIMBO</li>
-      <li>Sera-Alice V.</li>
-    </ul>
-    <p>Je tiens à exprimer ma profonde gratitude à chacun d’entre vous pour votre soutien précieux, votre confiance en mes capacités, vos conseils avisés, ainsi que pour les textes et les ressources que vous m’avez fournis. Que Dieu vous bénisse abondamment !</p>
+<h2>Contact</h2>
+<p>
+  📧 Email : <a href="mailto:jacobkyaka2@gmail.com">jacobkyaka2@gmail.com</a><br>
+  📞 Téléphone : +243996777069
+</p>
 
-    <h2>À propos du développeur</h2>
-    <p>Cette application a été développée par <strong>Jacob KYAKAKALA</strong> dans le but de rendre les cantiques plus accessibles. Que cette œuvre soit une bénédiction pour tous ceux qui l'utilisent.</p>
+<a href="HymnBooks.apk" class="download-btn" download>Télécharger maintenant</a>
 
-    <h2>Reconnaissance envers Dieu</h2>
-    <p><em>"Je ne savais pas que je pouvais le faire, mais le Seigneur l’a accompli à travers moi. Il m’a dit : ‘Va avec la force que tu as.’ Et voici, c’est fait, non par ma propre force, mais par Sa grâce. Gloire à Dieu pour toujours et à jamais. Amen !"</em></p>
+<footer>
+  To God be all the glory
+</footer>
 
-    <h2>Contact</h2>
-    <p>
-      📧 Email : <a href="mailto:jacobkyaka2@gmail.com">jacobkyaka2@gmail.com</a><br>
-      📞 Téléphone : +243996777069
-    </p>
-
-    <a href="HymnBooks.apk" class="download-btn" download>Télécharger maintenant</a>
-
-    <footer>
-      To God be all the glory
-    </footer>
-  </div>
-
-</body>
+  </div></body>
 </html>
